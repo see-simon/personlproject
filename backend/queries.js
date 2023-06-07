@@ -39,7 +39,7 @@ const getUsers = (request, response) => {
     })
   }
 
-  
+
   const updateUser = (request, response) => {
     const id = parseInt(request.params.id)
     const {  name, email } = request.body
@@ -76,6 +76,8 @@ const getUsers = (request, response) => {
     updateUser,
     deleteUser,
   }
+
+// for registration 
 
 
 
